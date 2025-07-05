@@ -1,0 +1,4 @@
+knowledge_base/embeddings.npy filter=lfs diff=lfs merge=lfs -text
+knowledge_base/faiss.index filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.index filter=lfs diff=lfs merge=lfs -text
