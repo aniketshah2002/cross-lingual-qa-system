@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Cross-Lingual Customer Insight Tool 🌍📊
 
 A Semantic Search Engine designed to uncover business insights from multilingual customer feedback.
@@ -59,7 +58,7 @@ This project is a web-based application that demonstrates a cross-lingual semant
 This project was built to showcase the power of modern NLP models in bridging language barriers, a key skill for a Master's program in AI/ML.
 
 Live Demo GIF:
-(Recommendation: Record a short GIF of you using the web app and upload it to your repository. Then, you can embed it here like this: ![Demo GIF](demo.gif))
+(Recommendation: Record a short GIF of you using the web app and upload it to your repository. Then, you can embed it here like this: ![Demo GIF](demo.mp4))
 
 Core Technologies & Concepts
 Backend: Flask
@@ -104,7 +103,7 @@ pip
 
 1. Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/cross-lingual-qa-system.git
+git clone https://github.com/aniketshah2002/cross-lingual-qa-system.git
 cd cross-lingual-qa-system
 
 2. Create a virtual environment and install dependencies:

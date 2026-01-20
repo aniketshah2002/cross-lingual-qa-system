@@ -1,23 +1,7 @@
-<<<<<<< HEAD
-=======
-# Step 3: Building the Search Index with FAISS
-# --------------------------------------------
-# FAISS is a library for efficient similarity search. It's perfect for
-# finding the "nearest neighbors" in a large set of vectors.
-#
-# Before running, you need to install the FAISS library.
-# We'll use the CPU version, which is easier to install.
-#
-# Open your terminal and run:
-# pip install faiss-cpu
-# --------------------------------------------
-
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 import os
-<<<<<<< HEAD
 import json
 
 def load_knowledge_base(directory="knowledge_base"):
@@ -105,7 +89,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
 
 def load_knowledge_base(directory="knowledge_base"):
     """Loads the sentences and embeddings from files."""
@@ -215,4 +198,3 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633

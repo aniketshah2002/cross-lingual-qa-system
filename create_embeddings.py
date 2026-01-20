@@ -1,7 +1,6 @@
 import numpy as np
 from datasets import load_dataset
 from sentence_transformers import SentenceTransformer
-<<<<<<< HEAD
 import os
 import json
 
@@ -10,7 +9,6 @@ def create_embeddings(model, documents):
     Generates embeddings for a list of documents.
     """
     print(f"Generating embeddings for {len(documents)} documents...")
-=======
 import os 
 
 def create_embeddings(model, documents):
@@ -28,13 +26,11 @@ def create_embeddings(model, documents):
     # The model.encode() method takes a list of sentences and returns
     # a list of their corresponding embeddings. We can specify and returns
     # to process multiple sentences at once, which is much faster.
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
     embeddings = model.encode(documents, show_progress_bar=True, batch_size=64)
     print("Embeddings generated successfully.")
     return embeddings
 
 def main():
-<<<<<<< HEAD
     print("Starting Step 2: Generating Embeddings (BALANCED VERSION)...")
 
     # --- 1. Load the Data (Balanced) ---
@@ -104,7 +100,6 @@ def main():
         json.dump(metadatas, f)
 
     print("\nStep 2 complete! Balanced Knowledge Base created.")
-=======
     """
     Main function to load data, chose a model, create embeddings.
     and save them to disk.
@@ -155,7 +150,6 @@ def main():
             f.write(sentence + "\n")
 
     print("\nStep 2 complete! We now have a knowledge base of sentences and their embeddings.")
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
 
 if __name__ == "__main__":
     main()

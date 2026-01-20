@@ -1,5 +1,4 @@
 from datasets import load_dataset
-<<<<<<< HEAD
 import pandas as pd
 
 def main():
@@ -50,7 +49,6 @@ def main():
     except Exception as e:
         print(f"\nAn error occurred: {e}")
         print("Detailed error info: Check if 'text' or 'label' keys exist in the dataset.")
-=======
 
 def main():
     """
@@ -90,7 +88,6 @@ def main():
         print(f"\nAn error occurred: {e}")
         print("Please ensure you have an internet connection and have installed the 'datasets' library.")
         print("You can install it with: pip install datasets")
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
 
 if __name__ == "__main__":
     main()

@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 # --- Python Basics ---
 __pycache__/
 *.py[cod]
 =======
 # Python virtual environment
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
 .venv/
 venv/
 env/
 
-<<<<<<< HEAD
 # --- Project Specific Data (Too large for GitHub) ---
 knowledge_base/
 *.npy
@@ -28,7 +25,7 @@ build_index_old.py
 check_data.py
 create_embeddings_old.py
 loading_data_old.py
-=======
+
 # Python cache files
 __pycache__/
 *.pyc
@@ -37,4 +34,4 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
->>>>>>> 12a97993d1425d5103c71a93c9ac1423827b0633
+
