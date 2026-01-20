@@ -1,13 +1,25 @@
-# Python virtual environment
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
 .venv/
 venv/
 env/
 
-# Python cache files
-__pycache__/
-*.pyc
+# --- Project Specific Data (Too large for GitHub) ---
+knowledge_base/
+*.npy
+*.index
 
-# IDE and OS files
-.idea/
-.vscode/
+# --- Mac OS System Files ---
 .DS_Store
+
+# --- Environment Variables (Secrets) ---
+.env
+
+# --- Extra Files ---
+showcase_videos/
+app_old.py
+build_index_old.py
+check_data.py
+create_embeddings_old.py
+loading_data_old.py
