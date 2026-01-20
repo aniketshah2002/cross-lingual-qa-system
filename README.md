@@ -58,7 +58,7 @@ This project is a web-based application that demonstrates a cross-lingual semant
 This project was built to showcase the power of modern NLP models in bridging language barriers, a key skill for a Master's program in AI/ML.
 
 Live Demo GIF:
-(Recommendation: Record a short GIF of you using the web app and upload it to your repository. Then, you can embed it here like this: ![Demo GIF](demo.mp4))
+[Demo GIF](demo.gif)
 
 Core Technologies & Concepts
 Backend: Flask
