@@ -28,21 +28,21 @@ This tool allows users to query a database of international reviews using **Natu
 ## 💻 How to Run Locally
 
 1. **Clone the repo**
-   git clone https://github.com/aniketshah2002/cross-lingual-qa-system.git
-   cd cross-lingual-insight
+   * git clone https://github.com/aniketshah2002/cross-lingual-qa-system.git
+   * cd cross-lingual-insight
 
 2. **Install dependencies**
-    pip install -r requirements.txt
+    * pip install -r requirements.txt
 
 3. **Build the Knowledge Base (First time only)**
-    python create_embeddings.py  # Downloads data and creates vectors
-    python build_index.py        # Creates the FAISS index
+    * python create_embeddings.py  # Downloads data and creates vectors
+    * python build_index.py        # Creates the FAISS index
 
 4. **Run the Dashboard**
-    python app.py
-    Open http://127.0.0.1:5000 in your browser.
+    * python app.py
+    * Open http://127.0.0.1:5000 in your browser.
 
-**📊 Example Scenarios**
+## **📊 Example Scenarios**
 **Query:** "The battery life is terrible" + Filter: 1 Star
 
 ***Result:*** Retrieves complaints in German ("Akku ist schwach") and French ("Batterie défaillante").
