@@ -29,7 +29,7 @@ This tool allows users to query a database of international reviews using **Natu
 
 1. **Clone the repo**
    * git clone https://github.com/aniketshah2002/cross-lingual-qa-system.git
-   * cd cross-lingual-insight
+   * cd cross-lingual-qa-system
 
 2. **Install dependencies**
     * pip install -r requirements.txt
